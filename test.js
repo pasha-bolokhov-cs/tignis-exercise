@@ -60,8 +60,8 @@ module.exports = {
     runTestCases: runTestCases
 };
 
-console.log('TODO: Run tests against your Competition class.')
-/*
- * YourCompetitionClass = require('./competition').YourCompetitionClass;
- * runTestCases(YourCompetitionClass);
- */
+
+
+let YourCompetitionClass = require('./competition').YourCompetitionClass;
+runTestCases(YourCompetitionClass);
+
